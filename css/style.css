@@ -41,7 +41,7 @@ body
 
     color: #4c4c4c;
     background-color: #fdfcf6;
-    width:1000px;
+    width:100%;
 　　margin-right: auto;
 　　margin-left : auto;
 }
@@ -58,6 +58,9 @@ body
  margin-left: auto;
  margin-right: auto;
   margin-bottom: 30px;
+  width:100%;
+  height:500px;
+  
 }
 
 .container
@@ -70,7 +73,7 @@ body
 
 #ranking
 {
-    background-color: #c2cbc6;
+    background-color: #D1D1D1;
      @include flex-direction(column);    // スキルボックスを縦に並べる
 }
 #ranking .container
@@ -81,8 +84,10 @@ body
 }
 #ranking h2
 {
+    padding-top: 60px;
     margin-bottom: 60px;
     color: #000;
+    font-size: 36px;
 }
 
 #ranking .skill-box
@@ -109,7 +114,7 @@ body
     
     margin-bottom: 10px;
     
-    color: #10c98d;
+    color: #d2691e;
     text-align: center;
 }
 
@@ -123,7 +128,7 @@ section .container
 }
 
 .text_button{
-    background-color: #c2cbc6;
+    background-color: #D1D1D1;
     padding-bottom: 30px;
 }
 

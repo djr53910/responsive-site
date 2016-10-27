@@ -25,9 +25,12 @@ time, mark, audio, video {
 
 /* Google Fonts用のCSSを読み込み
 ------------------------------------------------------------*/
+
+
 html
 {
     font-size: 62.5%;
+    
 }
 
 body
@@ -59,7 +62,7 @@ body
  margin-right: auto;
   margin-bottom: 30px;
   width:100%;
-  height:500px;
+  height: auto;
   
 }
 
@@ -130,14 +133,17 @@ section .container
 .text_button{
     background-color: #D1D1D1;
     padding-bottom: 30px;
+    line-height: 150%;
 }
 
 h2{
     text-align: center
+    
 }
 
 .text{
      margin-top: 30px;
+     padding:30px;
 }
 
 .button {

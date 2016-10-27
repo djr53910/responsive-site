@@ -131,14 +131,13 @@ section .container
     margin-left: auto;
 }
 
-.text_button{
+#text_button{
     background-color: #D1D1D1;
     padding-bottom: 30px;
-    line-height: 150%;
 }
 
 h2{
-    text-align: center
+    text-align: center;
     
 }
 

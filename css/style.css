@@ -33,6 +33,7 @@ html
     
 }
 
+
 body
 {
     
@@ -49,7 +50,7 @@ body
 　　margin-left : auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
   .container {
     flex-direction: column;
   }
@@ -76,7 +77,7 @@ body
 
 #ranking
 {
-    background-color: #D1D1D1;
+    background-color: #FF9900;
      @include flex-direction(column);    // スキルボックスを縦に並べる
 }
 #ranking .container
@@ -132,7 +133,7 @@ section .container
 }
 
 #text_button{
-    background-color: #D1D1D1;
+    background-color: #FF9900;
     padding-bottom: 30px;
 }
 

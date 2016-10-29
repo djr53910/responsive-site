@@ -59,6 +59,7 @@ body
 
 .image_ramen{
   background-image:url("../images/ramen.jpg");
+  background-size: cover;
   display: block;
   margin-left: auto;
   margin-right: auto;

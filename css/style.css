@@ -58,13 +58,13 @@ body
 
 
 .image_ramen{
- display: block;
- margin-left: auto;
- margin-right: auto;
+  background-image:url("../images/ramen.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   width:100%;
   height: auto;
-  
 }
 
 .container

@@ -46,23 +46,30 @@ body
     color: #4c4c4c;
     background-color: #fdfcf6;
     width:100%;
-　　margin-right: auto;
-　　margin-left : auto;
+    margin-right: auto;
+    margin-left : auto;
+}
+
+
+
+.image_ramen{
+    background-image:url("../images/ramen.jpg");
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width:100%;
+  height: 500px;
 }
 
 @media (max-width: 768px){
   .container {
     flex-direction: column;
   }
+   .image_ramen{
+  height: 250px;
 }
-
-.image_ramen{
-  background-image:url("../images/ramen.jpg");
-  background-size: cover;
-  height: 500px;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
 }
 
 .container
@@ -72,6 +79,8 @@ body
     margin-right: auto;
     margin-left: auto;
 }
+
+
 
 #ranking
 {
